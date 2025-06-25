@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Cart Race</title>
+  <link rel="stylesheet" href="stylesheet/stylesheet.css">
+  <link rel="icon" type="image/x-icon" href="Images/logo.ico">
+  <script src="./Search_Bar.js"></script>
+</head>
+<body>
+<div style="display: flex; align-items: center; justify-content: center; gap: 10px;">
+  <img src="Images/CHS_LOGO.png" alt="CHS Logo" width="100" height="100">
+  <span style="font-size: 55pt; color: black;">Cambridge High School Cart Race</span>
+</div>
+
+
+<section style="text-align:center; margin: 20px;">
+  <h2 style="font-size: 40px; color: black;">Welcome to the Cambridge High School Cart Race!</h2>
+</section>
+
+<!-- LEADERBOARD SECTION START -->
+ <main>
+  <div class="table-wrapper">
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search Players Name...">
+<table id="myTable">
+  <tr class="header">
+  <th style="background-color: #f1f1f1; color: rgb(0, 0, 0);">Placement</th> <!--Placement Row -->
+  <th style="background-color: #f1f1f1; color: rgb(0, 0, 0);">Sam</th> <!-- Name Row -->
+  <th style="background-color: #f1f1f1; color: rgb(0, 0, 0);">Time</th> <!-- Time Row -->
+  </tr>
+
+  <tr>
+  <td style="background-color: #FFD700; color: rgb(0, 0, 0);">1st</td> <!-- First Place -->
+  <td style="background-color: #FFD700; color: rgb(0, 0, 0);">NA</td> <!-- Name -->
+  <td style="background-color: #FFD700; color: rgb(0, 0, 0);">0:00:000</td> <!-- Time -->
+  </tr>
+
+  <tr>
+  <td style="background-color: #C0C0C0; color: rgb(0, 0, 0);">2nd</td> <!-- Second Place -->
+  <td style="background-color: #C0C0C0; color: rgb(0, 0, 0);">NA</td> <!-- Name -->
+  <td style="background-color: #C0C0C0; color: rgb(0, 0, 0);">0:00:000</td> <!-- Time -->
+  </tr>
+
+  <tr>
+  <td style="background-color: #CD7F32; color: rgb(0, 0, 0);">3rd</td> <!-- Third Place -->
+  <td style="background-color: #CD7F32; color: rgb(0, 0, 0);">NA</td> <!-- Name -->
+  <td style="background-color: #CD7F32; color: rgb(0, 0, 0);">0:00:000</td> <!-- Time -->
+  </tr>
+
+  <tr>
+  <td style="background-color: #8d8985; color: rgb(0, 0, 0);">4th</td> <!-- Fourth Place -->
+  <td style="background-color: #8d8985; color: rgb(0, 0, 0);">NA</td> <!-- Name -->
+  <td style="background-color: #8d8985; color: rgb(0, 0, 0);">0:00:000</td> <!-- Time -->
+  </tr>
+
+  <tr>
+  <td style="background-color: #8d8985; color: rgb(0, 0, 0);">5th</td> <!-- Fifth Place -->
+  <td style="background-color: #8d8985; color: rgb(0, 0, 0);">NA</td> <!-- Name -->
+  <td style="background-color: #8d8985; color: rgb(0, 0, 0);">0:00:000</td> <!-- Time -->
+  </tr>
+
+  <tr>
+  <td style="background-color: #8d8985; color: rgb(0, 0, 0);">6th</td> <!-- Sixth Place -->
+  <td style="background-color: #8d8985; color: rgb(0, 0, 0);">NA</td> <!-- Name -->
+  <td style="background-color: #8d8985; color: rgb(0, 0, 0);">0:00:000</td> <!-- Time -->
+  </tr>
+
+  <tr>
+  <td style="background-color: #8d8985; color: rgb(0, 0, 0);">7th</td> <!-- Seventh Place -->
+  <td style="background-color: #8d8985; color: rgb(0, 0, 0);">NA</td> <!-- Name -->
+  <td style="background-color: #8d8985; color: rgb(0, 0, 0);">0:00:000</td> <!-- Time -->
+  </tr>
+
+  <tr>
+  <td style="background-color: #8d8985; color: rgb(0, 0, 0);">8th</td> <!-- Eighth Place -->
+  <td style="background-color: #8d8985; color: rgb(0, 0, 0);">NA</td> <!-- Name -->
+  <td style="background-color: #8d8985; color: rgb(0, 0, 0);">0:00:000</td> <!-- Time -->
+  </tr>
+
+  <tr>
+  <td style="background-color: #8d8985; color: rgb(0, 0, 0);">9th</td> <!-- Ninth Place -->
+  <td style="background-color: #8d8985; color: rgb(0, 0, 0);">NA</td> <!-- Name -->
+  <td style="background-color: #8d8985; color: rgb(0, 0, 0);">0:00:000</td> <!-- Time -->
+  </tr>
+
+  <tr>
+  <td style="background-color: #8d8985; color: rgb(0, 0, 0);">10th</td> <!-- Tenth Place -->
+  <td style="background-color: #8d8985; color: rgb(0, 0, 0);">NA</td> <!-- Name -->
+  <td style="background-color: #8d8985; color: rgb(0, 0, 0);">0:00:000</td> <!-- Time -->
+  </tr>
+</table>
+</div>
+</main>
+<!-- LEADERBOARD SECTION END -->
+
+<!-- INFOMATION SECTION START -->
+<section>
+  <h2 style="font-size: 40px; color: black;">Information</h2>
+  <p style="font-size: 20px; color: black;">The Term 4 Cambridge High School Cart Race is a fun, competitive event held each year in Hamilton. Students race their own carts in timed runs, aiming for the fastest score. It’s all about speed, teamwork, and having a good time with friends. <br> For more info, Please Email.</p>
+  <p style="font-size: 20px;"><a href="mailto:jem@camhigh.school.nz">Mr. Elam</a></p>
+  <p style="font-size: 20px;"><a href="mailto:si@camhigh.school.nz">Mr. Siriett</a></p>
+</section>
+<!-- INFOMATION SECTION END -->
+
+<!-- LAST YEARS WINNERS SECTION START-->
+  <h2 style="font-size: 40px; color: black;">Last Years Winners</h2>
+      <table>
+  <tr>
+  <th style="background-color: #f1f1f1; color: rgb(0, 0, 0);">Placement</th> <!--Placement Row-->
+  <th style="background-color: #f1f1f1; color: rgb(0, 0, 0);">Name</th> <!--Name Row-->
+  <th style="background-color: #f1f1f1; color: rgb(0, 0, 0);">Time</th> <!--Time Row-->
+  </tr>
+<tr>
+  <td style="background-color: #FFD700; color: rgb(0, 0, 0);">1st</td> <!-- First Place -->
+  <td style="background-color: #FFD700; color: rgb(0, 0, 0);">NA</td> <!-- Name -->
+  <td style="background-color: #FFD700; color: rgb(0, 0, 0);">No Time Found</td> <!-- Time -->
+</tr>
+<tr>
+  <td style="background-color: #C0C0C0; color: rgb(0, 0, 0);">2nd</td> <!-- Second Place -->
+  <td style="background-color: #C0C0C0; color: rgb(0, 0, 0);">NA</td> <!-- Name -->
+  <td style="background-color: #C0C0C0; color: rgb(0, 0, 0);">No Time Found</td> <!-- Time -->
+</tr>
+<tr>
+  <td style="background-color: #CD7F32; color: rgb(0, 0, 0);">3rd</td> <!-- third Place -->
+  <td style="background-color: #CD7F32; color: rgb(0, 0, 0);">NA</td> <!-- Name -->
+  <td style="background-color: #CD7F32; color: rgb(0, 0, 0);">No Time Found</td> <!-- Time -->
+</tr>
+  </table>
+<!-- LAST YEARS WINNERS SECTION END-->
+</body>
+</html>

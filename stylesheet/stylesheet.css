@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* Gradient from Gulf Blue (top) to Blue Zodiac (bottom) */
+  background: linear-gradient(to bottom, #56B4E9, #CDDC39);
+  color: rgb(255, 255, 255); /* black text */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh; /* full screen height */
+  margin: 20;
+  padding: 0;
+}
+
+#myInput {
+  width: 30%;
+  font-size:  20px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #000000;
+  margin-bottom: 12px;
+  border-radius: 50px;
+}
+
+
+#myTable {
+  border-collapse: collapse;
+  width: 30%;;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr.header,
+#myTable tr:hover {
+  background-color: #000000;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  max-width: 600px;
+  margin: 20px 0 20px 0; /* top-right-bottom-left */
+  font-size: 18px;
+  background-color: white;
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+
+td, th {
+  padding: 12px;
+  text-align: left;
+  border: none; /* 🔧 Remove inner grey lines */
+}
+
+/* Optional: Add back a soft cell separator */
+td:not(:last-child), th:not(:last-child) {
+  border-right: 1px solid #e0e0e0;
+}
+
+tr:not(:last-child) td, tr:not(:last-child) th {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Rounded corners only on outermost cells */
+table tr:first-child th:first-child {
+  border-top-left-radius: 12px;
+}
+
+table tr:first-child th:last-child {
+  border-top-right-radius: 12px;
+}
+
+table tr:last-child td:first-child {
+  border-bottom-left-radius: 12px;
+}
+
+table tr:last-child td:last-child {
+  border-bottom-right-radius: 12px;
+}
+
+
+
+
+table + table {
+  margin-top: 20px; /* Optional: adds consistent spacing only between stacked tables */
+}
+
+.p1 {
+  font-family: "Copperplate";
+}
